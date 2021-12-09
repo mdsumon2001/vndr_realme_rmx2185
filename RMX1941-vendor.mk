@@ -19,6 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/bt_drv.ko \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/fmradio_drv.ko \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/gps_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/gps_drv.ko \
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/fpsgo.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/fpsgo.ko \
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/met.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/met.ko \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/wlan_drv_gen4m.ko \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/wmt_chrdev_wifi.ko \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/wmt_drv.ko
