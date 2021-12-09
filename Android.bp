@@ -20,7 +20,7 @@ soong_namespace {
 
 android_app_import {
 	name: "ImsService",
-	owner: "mediatek",
+	owner: "realme",
 	apk: "proprietary/priv-app/ImsService/ImsService.apk",
 	certificate: "platform",
 	dex_preopt: {
