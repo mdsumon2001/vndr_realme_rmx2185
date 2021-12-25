@@ -25,9 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/wlan_drv_gen4m.ko \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/wmt_chrdev_wifi.ko \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/wmt_drv.ko \
-    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpframework.so
-
-PRODUCT_COPY_FILES += \
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpframework.so \
     vendor/realme/RMX1941/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/realme/RMX1941/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/realme/RMX1941/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
