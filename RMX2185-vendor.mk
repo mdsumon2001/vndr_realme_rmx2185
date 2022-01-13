@@ -76,6 +76,26 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/system_ext/lib64/libaptX_encoder.so \
     vendor/realme/RMX2185/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so  \
     vendor/realme/RMX2185/proprietary/priv-app/TeeService/lib/arm64/libTeeServiceJni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/TeeService/lib/arm64/libTeeServiceJni.so
+	
+PRODUCT_PACKAGES += \
+    libshim_vtservice \
+	ImsServiceBase
+
+PRODUCT_PACKAGES += \
+    mediatek-common \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common 
+
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common 
 
 PRODUCT_PACKAGES += \
     EngineerMode \
