@@ -1,0 +1,1 @@
+# vndr_realme_rmx2185
